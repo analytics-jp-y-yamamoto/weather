@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # csv読み込み
-df0 = pd.read_csv('/Users/yamamotoyuta/Downloads/data.csv', index_col = 0)
+df0 = pd.read_csv('data.csv', index_col = 0)
 
 # セッション情報の初期化
 if "page_id" not in st.session_state:
